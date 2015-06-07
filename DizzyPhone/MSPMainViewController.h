@@ -1,5 +1,5 @@
 //
-//  MSPViewController.h
+//  MSPMainViewController.h
 //  DizzyPhone
 //
 //  Created by Pedro Flores on 10/5/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MSPViewController : UIViewController
+@interface MSPMainViewController : UIViewController
 
 @end

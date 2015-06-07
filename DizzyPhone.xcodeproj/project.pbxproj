@@ -21,8 +21,8 @@
 		476A36D619E20BD100EC00A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 476A36D419E20BD100EC00A8 /* InfoPlist.strings */; };
 		476A36D819E20BD100EC00A8 /* DizzyPhoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 476A36D719E20BD100EC00A8 /* DizzyPhoneTests.m */; };
 		476A36E319E20CE600EC00A8 /* MSPGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 476A36E219E20CE600EC00A8 /* MSPGameViewController.m */; };
-		476A36E619E20D1800EC00A8 /* MSPMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 476A36E519E20D1800EC00A8 /* MSPMainViewController.m */; };
 		476A36E919E20D2E00EC00A8 /* MSPSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 476A36E819E20D2E00EC00A8 /* MSPSettingsViewController.m */; };
+		47E366DD1B250C8900245B84 /* MSPMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E366DC1B250C8900245B84 /* MSPMainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,10 +55,10 @@
 		476A36D719E20BD100EC00A8 /* DizzyPhoneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DizzyPhoneTests.m; sourceTree = "<group>"; };
 		476A36E119E20CE600EC00A8 /* MSPGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSPGameViewController.h; sourceTree = "<group>"; };
 		476A36E219E20CE600EC00A8 /* MSPGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSPGameViewController.m; sourceTree = "<group>"; };
-		476A36E419E20D1800EC00A8 /* MSPMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSPMainViewController.h; path = ../MSPMainViewController.h; sourceTree = "<group>"; };
-		476A36E519E20D1800EC00A8 /* MSPMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSPMainViewController.m; path = ../MSPMainViewController.m; sourceTree = "<group>"; };
 		476A36E719E20D2E00EC00A8 /* MSPSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSPSettingsViewController.h; sourceTree = "<group>"; };
 		476A36E819E20D2E00EC00A8 /* MSPSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSPSettingsViewController.m; sourceTree = "<group>"; };
+		47E366DB1B250C8900245B84 /* MSPMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSPMainViewController.h; sourceTree = "<group>"; };
+		47E366DC1B250C8900245B84 /* MSPMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSPMainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,10 +118,10 @@
 		476A36B219E20BD000EC00A8 /* DizzyPhone */ = {
 			isa = PBXGroup;
 			children = (
+				47E366DB1B250C8900245B84 /* MSPMainViewController.h */,
+				47E366DC1B250C8900245B84 /* MSPMainViewController.m */,
 				476A36BB19E20BD000EC00A8 /* MSPAppDelegate.h */,
 				476A36BC19E20BD000EC00A8 /* MSPAppDelegate.m */,
-				476A36E419E20D1800EC00A8 /* MSPMainViewController.h */,
-				476A36E519E20D1800EC00A8 /* MSPMainViewController.m */,
 				476A36E719E20D2E00EC00A8 /* MSPSettingsViewController.h */,
 				476A36E819E20D2E00EC00A8 /* MSPSettingsViewController.m */,
 				476A36E119E20CE600EC00A8 /* MSPGameViewController.h */,
@@ -260,10 +260,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47E366DD1B250C8900245B84 /* MSPMainViewController.m in Sources */,
 				476A36B919E20BD000EC00A8 /* main.m in Sources */,
 				476A36E919E20D2E00EC00A8 /* MSPSettingsViewController.m in Sources */,
 				476A36BD19E20BD000EC00A8 /* MSPAppDelegate.m in Sources */,
-				476A36E619E20D1800EC00A8 /* MSPMainViewController.m in Sources */,
 				476A36E319E20CE600EC00A8 /* MSPGameViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
